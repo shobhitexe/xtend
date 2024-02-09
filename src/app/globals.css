@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&display=swap');
+
+
+html,body{
+  background-color: black;
+}
+
+
+.nav-button-bg-gradient-blue {
+  background: linear-gradient(60.79deg, #6988F8 -2.68%, #1637AE 102.21%);
+}
+
+.nav-button-bg-gradient-blue-text {
+  background: linear-gradient(60.79deg, #DFF3FF -2.68%,#66C6FF,#5389FB, #946BF9 102.21%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-button-bg-gradient-silver {
+  background: linear-gradient(60.79deg, #69759E -2.68%, #303A5F 102.21%);
+}
+
+.nav-button-bg-gradient-silver-text {
+  background: linear-gradient(180deg, #FFFFFF , #5A5E66 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
