@@ -1,11 +1,13 @@
-import { Navbar } from "@/components";
-import Hero from "@/components/Hero";
+import { Services, Hero, HomeSlider, Process, Growth } from "@/components";
 
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <Hero />
+      <HomeSlider />
+      <Services />
+      <Process />
+      <Growth />
     </main>
   );
 }
