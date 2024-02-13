@@ -1,4 +1,11 @@
-import { Services, Hero, HomeSlider, Process, Growth } from "@/components";
+import {
+  Services,
+  Hero,
+  HomeSlider,
+  Process,
+  Growth,
+  WebTechnologies,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -8,6 +15,7 @@ export default function Home() {
       <Services />
       <Process />
       <Growth />
+      <WebTechnologies />
     </main>
   );
 }
