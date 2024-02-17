@@ -4,7 +4,7 @@ export default function Growth() {
   return (
     <div className="sm:mt-40 mt-20 w-[90%] mx-auto">
       <div className="flex sm:flex-row flex-col sm:items-center md:gap-10 gap-5">
-        <h1 className="text-white text-[40px] font-semibold sm:w-[60%]">
+        <h1 className="text-white sm:text-[40px] text-[30px] font-semibold sm:w-[60%]">
           All things considered for the{" "}
           <span className="nav-button-bg-gradient-blue-text">
             Ultimate business

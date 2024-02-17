@@ -39,7 +39,11 @@ html,body{
   -webkit-text-fill-color: transparent;
 }
  
-
+.border-WhoIsThisFor {
+  border: 1px solid; 
+  border-image: radial-gradient(circle at top left, #9E9E9E , transparent 40%);
+  border-image-slice: 1; 
+}
 
 @layer base {
   :root {
