@@ -12,8 +12,8 @@ export default function WhoIsThisFor() {
           Who is this for?
         </h1>
         <p className="text-grey text-center ss:w-[40%] w-[80%] ss:text-[14px] text-[13px]">
-          Xtend is tailor-made for those who want to take their Business
-          presence to the next level! We're here to help :
+          {`Xtend is tailor-made for those who want to take their Business
+          presence to the next level! We're here to help :`}
         </p>
       </div>
 

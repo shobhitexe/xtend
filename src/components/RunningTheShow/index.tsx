@@ -8,7 +8,7 @@ export default function RunningTheShow() {
         <div className="border border-grey/60 rounded-2xl ss:m-10 xs:m-5 m-2 bg-heroBgColor/5">
           <div className="flex flex-col text-center ss:p-10 p-5 gap-2">
             <h1 className="nav-button-bg-gradient-silver-text md:text-[45px] sm:text-[40px] xs:text-[30px] text-[25px] font-bold">
-              …and it's not just us running the show
+              {"…and it's not just us running the show"}
             </h1>
             <p className="text-white/60 ss:w-[70%] w-full mx-auto md:text-[15px] sm:text-[14px] xs:text-[13px] text-[12px]">
               Most clients come to us after having an unpleasant experience with
@@ -17,7 +17,7 @@ export default function RunningTheShow() {
               and poor or no communication.
             </p>
             <h2 className="text-white/80 md:text-[16px] sm:text-[15px] xs:text-[14px] text-[13px] mt-3">
-              We've fixed all of that by building a lean and mean team.
+              {"We've fixed all of that by building a lean and mean team."}
             </h2>
           </div>
           <div className="flex sm:flex-row flex-col items-stretch border-t border-grey/40">

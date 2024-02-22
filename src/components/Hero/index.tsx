@@ -19,10 +19,10 @@ export default function Hero() {
         </div>
 
         <div className="nav-button-bg-gradient-blue text-white md:text-[16px] sm:text-[15px] ss:text-[14px] xs:text-[13px] text-[11px] px-14 cursor-pointer border py-3 rounded-xl mt-5 z-20">
-          Let's Talk
+          {"Let's Talk"}
         </div>
         <div className="text-grey text-[13px]">
-          Let's Skyrocket your Business!
+          {"Let's Skyrocket your Business!"}
         </div>
 
         <HeroIcons />

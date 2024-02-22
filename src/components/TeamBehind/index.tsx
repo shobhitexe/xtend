@@ -30,14 +30,15 @@ export default function TeamBehind() {
             us - why not leverage our wealth of experience to assist other
             businesses? <br />
             <br /> And so, in 2022, Xtend was born. <br />
-            <br /> We immerse ourselves in your business, delving into the
+            <br />{" "}
+            {`We immerse ourselves in your business, delving into the
             intricacies of your operations and understanding the needs of your
             customers. Our mission is to craft the most effective strategy and
             online presence, propelling your brand to new heights! Whether it's
             designing captivating websites and landing pages or orchestrating
             marketing campaigns on Instagram and Google, we deploy all our
             troops to ensure you emerge victorious in the digital battlefield.
-            Join forces with Xtend, and let's conquer the online realm together!
+            Join forces with Xtend, and let's conquer the online realm together!`}
           </div>
         </div>
         <div className="flex items-stretch justify-center flex-wrap gap-5 text-center sm:pt-20 pt-10">

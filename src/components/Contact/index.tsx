@@ -6,7 +6,7 @@ export default function Contact() {
           Boost your business with Xtend in just a few clicks
         </h1>
         <p className="nav-button-bg-gradient-silver-text ss:text-[15px] text-[14px]">
-          Book a free call and let's see if we can possibly work together…
+          {"Book a free call and let's see if we can possibly work together…"}
         </p>
         <div className="nav-button-bg-gradient-blue w-fit mx-auto text-white md:text-[16px] sm:text-[15px] ss:text-[14px] xs:text-[13px] text-[11px] md:px-20 px-14 cursor-pointer border py-3 rounded-lg mt-5 z-20">
           Book a 20-min call
