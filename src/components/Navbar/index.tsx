@@ -5,13 +5,13 @@ export default function Navbar() {
     <div className="bg-black md:px-10 px-5 ss:py-5 py-3 flex items-center justify-between">
       <div className="flex items-center gap-2">
         <Image
-          src={"/images/navbar/logo.png"}
+          src={"/images/navbar/logo.webp"}
           alt="navlogo"
           height={35}
           width={35}
         />
         <Image
-          src={"/images/navbar/xtend.png"}
+          src={"/images/navbar/xtend.webp"}
           alt="navlogo2"
           className="xs:flex hidden"
           height={90}

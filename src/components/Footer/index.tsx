@@ -52,13 +52,13 @@ export default function Footer() {
         className="flex items-center gap-2"
       >
         <Image
-          src={"/images/navbar/logo.png"}
+          src={"/images/navbar/logo.webp"}
           alt="navlogo"
           height={40}
           width={40}
         />
         <Image
-          src={"/images/navbar/xtend.png"}
+          src={"/images/navbar/xtend.webp"}
           alt="navlogo2"
           height={100}
           width={100}

@@ -30,7 +30,7 @@ export default function TeamBehind() {
         </motion.h1>
         <div className="flex sm:flex-row flex-col items-center gap-10 mt-10 justify-center">
           <Image
-            src={"/images/TeamBehind/team.png"}
+            src={"/images/TeamBehind/team.webp"}
             alt={"team"}
             width={400}
             height={400}

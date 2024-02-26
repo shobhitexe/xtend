@@ -20,7 +20,7 @@ export default function HeroImages() {
           }}
         >
           <Image
-            src={"/images/hero/W3.png"}
+            src={"/images/hero/W3.avif"}
             alt={"w3"}
             height={480}
             width={720}
@@ -38,7 +38,7 @@ export default function HeroImages() {
           }}
         >
           <Image
-            src={"/images/hero/W1.png"}
+            src={"/images/hero/W1.avif"}
             alt={"w1"}
             height={480}
             width={720}
@@ -57,7 +57,7 @@ export default function HeroImages() {
           }}
         >
           <Image
-            src={"/images/hero/W2.png"}
+            src={"/images/hero/W2.avif"}
             alt={"w2"}
             height={480}
             width={720}

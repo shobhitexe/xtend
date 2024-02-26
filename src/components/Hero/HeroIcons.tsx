@@ -15,7 +15,7 @@ export default function HeroIcons() {
         }}
       >
         <Image
-          src={"/images/hero/arrow.png"}
+          src={"/images/hero/arrow.webp"}
           alt={"arrow"}
           width={100}
           height={150}
@@ -34,7 +34,7 @@ export default function HeroIcons() {
         }}
       >
         <Image
-          src={"/images/hero/lego.png"}
+          src={"/images/hero/lego.webp"}
           alt={"lego"}
           width={100}
           height={150}
@@ -53,7 +53,7 @@ export default function HeroIcons() {
         }}
       >
         <Image
-          src={"/images/hero/star.png"}
+          src={"/images/hero/star.webp"}
           alt={"star"}
           width={80}
           height={80}
@@ -72,7 +72,7 @@ export default function HeroIcons() {
         }}
       >
         <Image
-          src={"/images/hero/lightning.png"}
+          src={"/images/hero/lightning.webp"}
           alt={"lightning"}
           width={100}
           height={150}

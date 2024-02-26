@@ -126,7 +126,7 @@ export default function Services() {
                         }}
                       >
                         <Image
-                          src={"/images/services/tick.png"}
+                          src={"/images/services/tick.webp"}
                           alt="tick"
                           width={20}
                           height={20}
@@ -161,7 +161,7 @@ export default function Services() {
                 className="sm:w-[50%] w-full"
               >
                 <Image
-                  src={"/images/services/brand.png"}
+                  src={"/images/services/brand.avif"}
                   alt={"brand"}
                   width={600}
                   height={400}

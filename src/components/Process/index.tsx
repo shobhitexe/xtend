@@ -56,7 +56,7 @@ export default function Process() {
         </div>
         <div className="flex sm:flex-row flex-col-reverse items-center">
           <Image
-            src={"/images/process/code.png"}
+            src={"/images/process/code.webp"}
             alt={"code"}
             width={480}
             height={400}
