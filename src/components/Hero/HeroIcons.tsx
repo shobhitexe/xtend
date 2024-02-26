@@ -13,6 +13,7 @@ export default function HeroIcons() {
           stiffness: 70,
           type: "spring",
         }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         <Image
           src={"/images/hero/arrow.webp"}
@@ -32,6 +33,7 @@ export default function HeroIcons() {
           stiffness: 70,
           type: "spring",
         }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         <Image
           src={"/images/hero/lego.webp"}
@@ -51,6 +53,7 @@ export default function HeroIcons() {
           stiffness: 70,
           type: "spring",
         }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         <Image
           src={"/images/hero/star.webp"}
@@ -70,6 +73,7 @@ export default function HeroIcons() {
           stiffness: 70,
           type: "spring",
         }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         <Image
           src={"/images/hero/lightning.webp"}

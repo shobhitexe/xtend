@@ -17,6 +17,7 @@ export default function Growth() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
           className="text-white sm:text-[40px] text-[30px] font-semibold sm:w-[60%]"
         >
           All things considered for the{" "}
@@ -35,6 +36,7 @@ export default function Growth() {
               stiffness: 70,
               type: "spring",
             }}
+            viewport={{ once: true, amount: 0.5 }}
             className="text-grey"
           >
             We pride ourselves on executing every aspect of a project with care
@@ -51,6 +53,7 @@ export default function Growth() {
               stiffness: 70,
               type: "spring",
             }}
+            viewport={{ once: true, amount: 0.5 }}
             className="text-white px-7 py-3 rounded-3xl flex items-center gap-1 w-fit border border-grey/50 cursor-pointer drop-shadow-sm"
           >
             <div>Book a Call</div> <DiagonalArrow className="w-7 h-7" />

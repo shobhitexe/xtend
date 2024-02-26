@@ -17,6 +17,7 @@ export default function Hero() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
           className="nav-button-bg-gradient-silver-text md:text-[70px] sm:text-[60px] ss:text-[50px] xs:text-[40px] text-[30px] font-instrumentSans px-1 text-center font-semibold sm:leading-[70px] ss:leading-[60px] xs:leading-[50px] leading-[40px]"
         >
           Design that{" "}
@@ -29,6 +30,7 @@ export default function Hero() {
               stiffness: 70,
               type: "spring",
             }}
+            viewport={{ once: true, amount: 0.5 }}
             className="nav-button-bg-gradient-blue-text"
           >
             resonates
@@ -46,6 +48,7 @@ export default function Hero() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
           className="text-center text-grey sm:w-[45%] w-[60%] md:text-[16px] sm:text-[15px] ss:text-[14px] xs:text-[13px] text-[12px]"
         >
           Try an award-winning full-service web growth agency, specializing in
@@ -62,6 +65,7 @@ export default function Hero() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
           className="nav-button-bg-gradient-blue text-white md:text-[16px] sm:text-[15px] ss:text-[14px] xs:text-[13px] text-[11px] px-14 cursor-pointer border py-3 rounded-xl mt-5 z-20"
         >
           {"Let's Talk"}
@@ -75,6 +79,7 @@ export default function Hero() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
           className="text-grey text-[13px]"
         >
           {"Let's Skyrocket your Business!"}

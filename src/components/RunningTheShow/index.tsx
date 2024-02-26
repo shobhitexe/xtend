@@ -19,6 +19,7 @@ export default function RunningTheShow() {
                 stiffness: 70,
                 type: "spring",
               }}
+              viewport={{ once: true, amount: 0.5 }}
               className="nav-button-bg-gradient-silver-text md:text-[45px] sm:text-[40px] xs:text-[30px] text-[25px] font-bold"
             >
               {"…and it's not just us running the show"}
@@ -32,6 +33,7 @@ export default function RunningTheShow() {
                 stiffness: 70,
                 type: "spring",
               }}
+              viewport={{ once: true, amount: 0.5 }}
               className="text-white/60 ss:w-[70%] w-full mx-auto md:text-[15px] sm:text-[14px] xs:text-[13px] text-[12px]"
             >
               Most clients come to us after having an unpleasant experience with
@@ -48,6 +50,7 @@ export default function RunningTheShow() {
                 stiffness: 70,
                 type: "spring",
               }}
+              viewport={{ once: true, amount: 0.5 }}
               className="text-white/80 md:text-[16px] sm:text-[15px] xs:text-[14px] text-[13px] mt-3"
             >
               {"We've fixed all of that by building a lean and mean team."}
@@ -64,6 +67,7 @@ export default function RunningTheShow() {
                   stiffness: 70,
                   type: "spring",
                 }}
+                viewport={{ once: true, amount: 0.5 }}
                 key={show.title}
                 className={`px-5 py-10 ${
                   idx < RunningTheShowArray.length - 1 &&

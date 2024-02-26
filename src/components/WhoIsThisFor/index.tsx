@@ -21,6 +21,7 @@ export default function WhoIsThisFor() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
           className="text-[40px] nav-button-bg-gradient-silver-text font-semibold text-center"
         >
           Who is this for?
@@ -34,6 +35,7 @@ export default function WhoIsThisFor() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
           className="text-grey text-center ss:w-[40%] w-[80%] ss:text-[14px] text-[13px]"
         >
           {`Xtend is tailor-made for those who want to take their Business

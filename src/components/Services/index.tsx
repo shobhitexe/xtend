@@ -32,6 +32,7 @@ export default function Services() {
                 stiffness: 70,
                 type: "spring",
               }}
+              viewport={{ once: true, amount: 0.5 }}
               className="nav-button-bg-gradient-silver-text xs:text-center text-left md:text-[50px] sm:text-[40px] ss:text-[35px] xs:text-[30px] text-[25px] font-semibold md:leading-[60px] sm:leading-[50px] xs:leading-[40px] leading-[30px]"
             >
               Strategically crafted designs that <br /> narrate your unique
@@ -46,6 +47,7 @@ export default function Services() {
                 stiffness: 70,
                 type: "spring",
               }}
+              viewport={{ once: true, amount: 0.5 }}
               className="text-grey md:text-[15px] text-[14px]"
             >
               Let our designs weave the magic of storytelling, bringing your
@@ -65,6 +67,7 @@ export default function Services() {
                   stiffness: 70,
                   type: "spring",
                 }}
+                viewport={{ once: true, amount: 0.5 }}
                 key={service}
                 className={` border border-lightBlue xs:px-7 px-5 py-3 cursor-pointer rounded-2xl md:text-[15px] xs:text-[14px] text-[13px] ${
                   activeTab === idx
@@ -90,6 +93,7 @@ export default function Services() {
                     stiffness: 70,
                     type: "spring",
                   }}
+                  viewport={{ once: true, amount: 0.5 }}
                   className="nav-button-bg-gradient-silver-text md:text-[40px] text-[30px] ss:leading-[50px] leading-[35px] font-semibold"
                 >
                   Brand Strategizing
@@ -103,6 +107,7 @@ export default function Services() {
                     stiffness: 70,
                     type: "spring",
                   }}
+                  viewport={{ once: true, amount: 0.5 }}
                   className="text-grey md:text-[15px] text-[14px]"
                 >
                   Welcome to the world of seamless strategising! <br /> <br />{" "}
@@ -124,6 +129,7 @@ export default function Services() {
                           stiffness: 70,
                           type: "spring",
                         }}
+                        viewport={{ once: true, amount: 0.5 }}
                       >
                         <Image
                           src={"/images/services/tick.webp"}
@@ -140,6 +146,7 @@ export default function Services() {
                           stiffness: 50,
                           type: "spring",
                         }}
+                        viewport={{ once: true, amount: 0.5 }}
                         className="origin-left"
                       >
                         {point}
@@ -158,6 +165,7 @@ export default function Services() {
                   stiffness: 70,
                   type: "spring",
                 }}
+                viewport={{ once: true, amount: 0.5 }}
                 className="sm:w-[50%] w-full"
               >
                 <Image

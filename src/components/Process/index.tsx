@@ -32,6 +32,7 @@ export default function Process() {
               stiffness: 70,
               type: "spring",
             }}
+            viewport={{ once: true, amount: 0.5 }}
             className="text-center nav-button-bg-gradient-silver-text ss:text-[50px] xs:text-[40px] text-[30px] font-semibold"
           >
             <span className="process-section-heading-gradient">Trust</span> the
@@ -46,6 +47,7 @@ export default function Process() {
               stiffness: 70,
               type: "spring",
             }}
+            viewport={{ once: true, amount: 0.5 }}
             className="text-grey text-center sm:w-[60%] w-[90%] ss:text-[14px] xs:text-[13px] text-[12px] mx-auto"
           >
             Our core services are highly clean-cut and focused on the things we
@@ -85,6 +87,7 @@ export default function Process() {
                     stiffness: 70,
                     type: "spring",
                   }}
+                  viewport={{ once: true, amount: 0.5 }}
                 >
                   {" "}
                   <AccordionTrigger className="nav-button-bg-gradient-silver-text ss:text-[28px] xs:text-[20px] text-[18px] font-semibold">
@@ -100,6 +103,7 @@ export default function Process() {
                     stiffness: 70,
                     type: "spring",
                   }}
+                  viewport={{ once: true, amount: 0.5 }}
                 >
                   <AccordionContent className="text-grey ss:text-[15px] xs:text-[14px] text-[12px]">
                     {process.content}

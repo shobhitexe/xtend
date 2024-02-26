@@ -17,6 +17,7 @@ export default function WebTechnologies() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
           className="text-center text-white font-semibold sm:text-[40px] text-[30px] sm:leading-[50px] leading-[40px]"
         >
           Battle-tested and future proof
@@ -34,6 +35,7 @@ export default function WebTechnologies() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
           className="text-grey w-[80%] text-center ss:text-[14px] text-[13px]"
         >
           We take pride in selecting and mastering the very best web
@@ -54,6 +56,7 @@ export default function WebTechnologies() {
               stiffness: 70,
               type: "spring",
             }}
+            viewport={{ once: true, amount: 0.5 }}
             key={tech.alt}
             className={`bg-lightViolet ${
               tech.alt === "react"

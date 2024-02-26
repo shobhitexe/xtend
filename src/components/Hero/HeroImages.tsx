@@ -8,7 +8,7 @@ export default function HeroImages() {
         <div></div>
       </div>
 
-      <div className="relative mx-auto w-[90%] sm:bottom-0 -bottom-[50px]">
+      <div className="relative mx-auto ss:w-[90%] w-full sm:bottom-0 -bottom-[50px]">
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
@@ -18,6 +18,7 @@ export default function HeroImages() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
         >
           <Image
             src={"/images/hero/W3.avif"}
@@ -36,6 +37,7 @@ export default function HeroImages() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
         >
           <Image
             src={"/images/hero/W1.avif"}
@@ -55,6 +57,7 @@ export default function HeroImages() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
         >
           <Image
             src={"/images/hero/W2.avif"}

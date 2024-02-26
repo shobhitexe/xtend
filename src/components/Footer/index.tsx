@@ -17,6 +17,7 @@ export default function Footer() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
           className="nav-button-bg-gradient-silver-text"
         >
           Talk to us
@@ -30,6 +31,7 @@ export default function Footer() {
             stiffness: 70,
             type: "spring",
           }}
+          viewport={{ once: true, amount: 0.5 }}
         >
           {" "}
           <Link
@@ -49,6 +51,7 @@ export default function Footer() {
           stiffness: 70,
           type: "spring",
         }}
+        viewport={{ once: true, amount: 0.5 }}
         className="flex items-center gap-2"
       >
         <Image
