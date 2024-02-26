@@ -1,28 +1,59 @@
+"use client";
+
 import Image from "next/image";
 import { WebTechnologiesArray } from "./WebTechnologiesConstants";
+import { motion } from "framer-motion";
 
 export default function WebTechnologies() {
   return (
     <div className="sm:mt-40 mt-20 w-[90%] mx-auto flex flex-col gap-14">
       <div className="flex flex-col gap-3 items-center">
-        <h1 className="text-center text-white font-semibold sm:text-[40px] text-[30px] sm:leading-[50px] leading-[40px]">
+        <motion.h1
+          initial={{ translateY: 10, opacity: 0 }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+          transition={{
+            delay: 0.2,
+            duration: 0.5,
+            stiffness: 70,
+            type: "spring",
+          }}
+          className="text-center text-white font-semibold sm:text-[40px] text-[30px] sm:leading-[50px] leading-[40px]"
+        >
           Battle-tested and future proof
           <br />
           <span className="nav-button-bg-gradient-blue-text">
             Web technologies
           </span>
-        </h1>
-        <p className="text-grey w-[80%] text-center ss:text-[14px] text-[13px]">
+        </motion.h1>
+        <motion.p
+          initial={{ translateY: 10, opacity: 0 }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+          transition={{
+            delay: 0.4,
+            duration: 0.5,
+            stiffness: 70,
+            type: "spring",
+          }}
+          className="text-grey w-[80%] text-center ss:text-[14px] text-[13px]"
+        >
           We take pride in selecting and mastering the very best web
           technologies to build websites and web applications that not only
           scale and perform seamlessly but also enjoy a strong support network
           from a thriving community, as well as some other key factors that help
           your business grow into the future.
-        </p>
+        </motion.p>
       </div>
       <div className="flex gap-5 items-stretch flex-wrap ss:w-[80%] mx-auto justify-center">
-        {WebTechnologiesArray.map((tech) => (
-          <div
+        {WebTechnologiesArray.map((tech, idx) => (
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{
+              delay: 0.1 * idx,
+              duration: 0.5,
+              stiffness: 70,
+              type: "spring",
+            }}
             key={tech.alt}
             className={`bg-lightViolet ${
               tech.alt === "react"
@@ -39,7 +70,7 @@ export default function WebTechnologies() {
                 tech.alt === "react" ? "max-ss:w-[20px]" : "max-ss:w-[50px]"
               }`}
             />
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

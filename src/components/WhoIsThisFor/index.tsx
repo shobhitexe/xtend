@@ -1,5 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import { WhoIsThisForArray } from "./WhoIsThisForConstants";
+
+import { motion } from "framer-motion";
 
 export default function WhoIsThisFor() {
   return (
@@ -8,13 +12,33 @@ export default function WhoIsThisFor() {
         <div></div>
       </div>
       <div className="flex flex-col gap-3 items-center">
-        <h1 className="text-[40px] nav-button-bg-gradient-silver-text font-semibold text-center">
+        <motion.h1
+          initial={{ translateY: 10, opacity: 0 }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+          transition={{
+            delay: 0.2,
+            duration: 0.5,
+            stiffness: 70,
+            type: "spring",
+          }}
+          className="text-[40px] nav-button-bg-gradient-silver-text font-semibold text-center"
+        >
           Who is this for?
-        </h1>
-        <p className="text-grey text-center ss:w-[40%] w-[80%] ss:text-[14px] text-[13px]">
+        </motion.h1>
+        <motion.p
+          initial={{ translateY: 10, opacity: 0 }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+          transition={{
+            delay: 0.4,
+            duration: 0.5,
+            stiffness: 70,
+            type: "spring",
+          }}
+          className="text-grey text-center ss:w-[40%] w-[80%] ss:text-[14px] text-[13px]"
+        >
           {`Xtend is tailor-made for those who want to take their Business
           presence to the next level! We're here to help :`}
-        </p>
+        </motion.p>
       </div>
 
       <div className="flex items-center flex-wrap justify-center gap-5 mt-10">

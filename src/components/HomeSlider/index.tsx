@@ -11,7 +11,7 @@ import Autoplay from "embla-carousel-autoplay";
 
 export default function HomeSlider() {
   return (
-    <div className="xs:mt-20 mt-10 w-full mx-auto relative">
+    <div className="xs:mt-24 mt-10 w-full mx-auto relative">
       <div className="absolute w-full md:h-[280px] sm:h-[250px] ss:h-[150px] xs:h-[120px] h-[110px] bg-bgViolet bottom-0 z-20">
         <div></div>
       </div>
@@ -33,8 +33,8 @@ export default function HomeSlider() {
               <Image
                 src={slider.src}
                 alt={slider.alt}
-                width={130}
-                height={130}
+                width={120}
+                height={120}
                 className="w-auto"
               />
             </CarouselItem>
