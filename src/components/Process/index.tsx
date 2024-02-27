@@ -56,17 +56,17 @@ export default function Process() {
             design, cutting-edge technology, and lasting support.
           </motion.p>
         </div>
-        <div className="flex sm:flex-row flex-col-reverse items-center">
+        <div className="flex sm:flex-row flex-col-reverse items-center md:w-[90%] w-[95%] mx-auto z-20">
           <Image
-            src={"/images/process/code.webp"}
+            src={"/images/process/code.svg"}
             alt={"code"}
             width={480}
             height={400}
-            className="sm:w-[40%] w-auto"
+            className="sm:w-[45%] w-auto mx-auto py-20"
           />
 
           <Accordion
-            className="w-full flex flex-col gap-5"
+            className="sm:w-[50%] w-auto flex flex-col gap-5 mx-auto"
             type="single"
             collapsible
             defaultValue={"01. Strategy"}

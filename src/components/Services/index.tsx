@@ -21,7 +21,7 @@ export default function Services() {
         <div className="absolute border-x border-t border-heroBgColor/30 shadow-inner shadow-heroBgColor/30 w-full h-[200px] top-0 rounded-t-2xl ">
           <div></div>
         </div>
-        <div className="ss:p-10 p-5 flex flex-col items-center gap-10">
+        <div className="ss:py-10 py-5 max-sm:px-10 flex flex-col items-center gap-10">
           <div className="text-center flex flex-col gap-5">
             <motion.h1
               initial={{ translateY: 10, opacity: 0 }}
@@ -56,7 +56,7 @@ export default function Services() {
             </motion.p>
           </div>
 
-          <div className="flex items-center md:gap-20 xs:gap-5 gap-3 flex-wrap justify-center">
+          <div className="flex items-center md:gap-10 xs:gap-5 gap-3 flex-wrap justify-center">
             {servicesArray.map((service, idx) => (
               <motion.div
                 initial={{ opacity: 0 }}
@@ -82,7 +82,7 @@ export default function Services() {
           </div>
 
           {activeTab >= 0 && (
-            <div className="flex sm:flex-row flex-col ss:w-[80%] w-[95%] items-center gap-10">
+            <div className="flex md:flex-row flex-col ss:w-[80%] w-[95%] items-center gap-10">
               <div className="flex flex-col gap-5">
                 <motion.h1
                   initial={{ translateY: 10, opacity: 0 }}
@@ -166,7 +166,7 @@ export default function Services() {
                   type: "spring",
                 }}
                 viewport={{ once: true, amount: 0.5 }}
-                className="sm:w-[50%] w-full"
+                className="w-full"
               >
                 <Image
                   src={"/images/services/brand.avif"}
