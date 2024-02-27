@@ -10,7 +10,7 @@
 html,body{
   background-color: #02030F;
   overflow-x: hidden;
-  transition: all 0.3s;
+  /* transition: all 0.3s; */
 }
 
 
