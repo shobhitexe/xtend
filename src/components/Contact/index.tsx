@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -33,20 +34,27 @@ export default function Contact() {
         >
           {"Book a free call and let's see if we can possibly work together…"}
         </motion.p>
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{
-            delay: 0.2,
-            duration: 0.5,
-            stiffness: 70,
-            type: "spring",
-          }}
-          viewport={{ once: true, amount: 0.5 }}
-          className="nav-button-bg-gradient-blue w-fit mx-auto text-white md:text-[16px] sm:text-[15px] ss:text-[14px] xs:text-[13px] text-[11px] md:px-20 px-14 cursor-pointer border py-3 rounded-lg mt-5 z-20"
+
+        <Link
+          href={"https://calendly.com/adityagypxtend/30min"}
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          Book a 20-min call
-        </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{
+              delay: 0.2,
+              duration: 0.5,
+              stiffness: 70,
+              type: "spring",
+            }}
+            viewport={{ once: true, amount: 0.5 }}
+            className="nav-button-bg-gradient-blue w-fit mx-auto text-white md:text-[16px] sm:text-[15px] ss:text-[14px] xs:text-[13px] text-[11px] md:px-20 px-14 cursor-pointer border py-3 rounded-lg mt-5 z-20"
+          >
+            Book a 20-min call
+          </motion.div>
+        </Link>
       </div>
     </div>
   );

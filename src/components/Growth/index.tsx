@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import DiagonalArrow from "../icons/DiagonalArrow";
 
 import { motion } from "framer-motion";
@@ -44,20 +45,27 @@ export default function Growth() {
             ongoing testing, we ensure your website is fast, secure and
             optimized at every level for sustained growth.
           </motion.p>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{
-              delay: 0.2,
-              duration: 0.5,
-              stiffness: 70,
-              type: "spring",
-            }}
-            viewport={{ once: true, amount: 0.5 }}
-            className="text-white px-7 py-3 rounded-3xl flex items-center gap-1 w-fit border border-grey/50 cursor-pointer drop-shadow-sm"
+
+          <Link
+            href={"https://calendly.com/adityagypxtend/30min"}
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <div>Book a Call</div> <DiagonalArrow className="w-7 h-7" />
-          </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{
+                delay: 0.2,
+                duration: 0.5,
+                stiffness: 70,
+                type: "spring",
+              }}
+              viewport={{ once: true, amount: 0.5 }}
+              className="text-white px-7 py-3 rounded-3xl flex items-center gap-1 w-fit border border-grey/50 cursor-pointer drop-shadow-sm"
+            >
+              <div>Book a Call</div> <DiagonalArrow className="w-7 h-7" />
+            </motion.div>
+          </Link>
         </div>
       </div>
     </div>

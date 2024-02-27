@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import HeroIcons from "./HeroIcons";
 import HeroImages from "./HeroImages";
 import { motion } from "framer-motion";
@@ -55,21 +56,28 @@ export default function Hero() {
           strategy, design and development, content marketing and more, to find
           and engage customers and drive revenue across all your channels.
         </motion.div>
-
-        <motion.div
-          initial={{ translateY: 10, opacity: 0 }}
-          whileInView={{ translateY: 0, opacity: 1 }}
-          transition={{
-            delay: 0.2,
-            duration: 0.5,
-            stiffness: 70,
-            type: "spring",
-          }}
-          viewport={{ once: true, amount: 0.5 }}
-          className="nav-button-bg-gradient-blue text-white md:text-[16px] sm:text-[15px] ss:text-[14px] xs:text-[13px] text-[11px] px-14 cursor-pointer border py-3 rounded-xl mt-5 z-20"
+        <Link
+          href={"https://calendly.com/adityagypxtend/30min"}
+          rel="noopener noreferrer"
+          target="_blank"
+          className="cursor-pointer z-20"
         >
-          {"Let's Talk"}
-        </motion.div>
+          <motion.div
+            initial={{ translateY: 10, opacity: 0 }}
+            whileInView={{ translateY: 0, opacity: 1 }}
+            transition={{
+              delay: 0.2,
+              duration: 0.5,
+              stiffness: 70,
+              type: "spring",
+            }}
+            viewport={{ once: true, amount: 0.5 }}
+            className="nav-button-bg-gradient-blue text-white md:text-[16px] sm:text-[15px] ss:text-[14px] xs:text-[13px] text-[11px] px-14 cursor-pointer border py-3 rounded-xl mt-5"
+          >
+            {"Let's Talk"}
+          </motion.div>
+        </Link>
+
         <motion.div
           initial={{ translateY: 10, opacity: 0 }}
           whileInView={{ translateY: 0, opacity: 1 }}
