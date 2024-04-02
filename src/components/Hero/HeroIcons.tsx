@@ -10,8 +10,6 @@ export default function HeroIcons() {
         transition={{
           delay: 0.1,
           duration: 0.5,
-          stiffness: 70,
-          type: "spring",
         }}
         viewport={{ once: true, amount: 0.5 }}
       >
@@ -30,8 +28,6 @@ export default function HeroIcons() {
         transition={{
           delay: 0.1,
           duration: 0.5,
-          stiffness: 70,
-          type: "spring",
         }}
         viewport={{ once: true, amount: 0.5 }}
       >
@@ -50,8 +46,6 @@ export default function HeroIcons() {
         transition={{
           delay: 0.1,
           duration: 0.5,
-          stiffness: 70,
-          type: "spring",
         }}
         viewport={{ once: true, amount: 0.5 }}
       >
@@ -70,8 +64,6 @@ export default function HeroIcons() {
         transition={{
           delay: 0.1,
           duration: 0.5,
-          stiffness: 70,
-          type: "spring",
         }}
         viewport={{ once: true, amount: 0.5 }}
       >

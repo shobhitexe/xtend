@@ -18,8 +18,6 @@ export default function WhoIsThisFor() {
           transition={{
             delay: 0.2,
             duration: 0.5,
-            stiffness: 70,
-            type: "spring",
           }}
           viewport={{ once: true, amount: 0.5 }}
           className="text-[40px] nav-button-bg-gradient-silver-text font-semibold text-center"
@@ -32,8 +30,6 @@ export default function WhoIsThisFor() {
           transition={{
             delay: 0.4,
             duration: 0.5,
-            stiffness: 70,
-            type: "spring",
           }}
           viewport={{ once: true, amount: 0.5 }}
           className="text-grey text-center ss:w-[40%] w-[80%] ss:text-[14px] text-[13px]"
