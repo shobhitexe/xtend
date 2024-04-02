@@ -12,10 +12,10 @@ import Autoplay from "embla-carousel-autoplay";
 export default function HomeSlider() {
   return (
     <div className="xs:mt-24 mt-10 w-full mx-auto relative">
-      <div className="absolute w-full md:h-[280px] sm:h-[250px] ss:h-[150px] xs:h-[120px] h-[110px] bg-bgViolet bottom-0 z-20">
+      <div className="relative -top-20  w-full md:h-[280px] sm:h-[250px] ss:h-[150px] xs:h-[120px] h-[110px] bg-bgViolet z-20">
         <div></div>
       </div>
-      <Carousel
+      {/* <Carousel
         className="z-30 w-[90%] mx-auto"
         opts={{
           align: "start",
@@ -40,7 +40,7 @@ export default function HomeSlider() {
             </CarouselItem>
           ))}
         </CarouselContent>
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 }

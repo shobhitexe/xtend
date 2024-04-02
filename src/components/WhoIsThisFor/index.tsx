@@ -43,26 +43,23 @@ export default function WhoIsThisFor() {
         {WhoIsThisForArray.map((item) => (
           <div
             key={item.title}
-            className="flex flex-col items-center gap-1 pt-5 md:w-[30%] ss:w-[300px] w-[90%] bg-lightBlue/20 rounded-xl relative"
+            className="md:w-[30%] ss:w-[300px] w-[90%] p-[1px] bg-gradient-to-b from-[#8161FF] to-transparent z-0 rounded-xl"
           >
-            <div className="absolute w-full h-[40%] border-x border-t border-lightBlue/60 rounded-t-xl top-0">
-              {" "}
-              <div></div>
+            <div className="flex flex-col items-center gap-1 pt-5 bg-[#13142B] rounded-xl relative z-30">
+              <div className="nav-button-bg-gradient-silver-text text-[25px] font-semibold">
+                {item.title}
+              </div>
+              <div className="text-grey text-[12px] text-center w-[70%]">
+                {item.desc}
+              </div>
+              <Image
+                src={item.img}
+                alt={item.title}
+                width={350}
+                height={350}
+                className="mt-5"
+              />
             </div>
-
-            <div className="nav-button-bg-gradient-silver-text text-[25px] font-semibold">
-              {item.title}
-            </div>
-            <div className="text-grey text-[12px] text-center w-[70%]">
-              {item.desc}
-            </div>
-            <Image
-              src={item.img}
-              alt={item.title}
-              width={350}
-              height={350}
-              className="mt-5"
-            />
           </div>
         ))}
       </div>

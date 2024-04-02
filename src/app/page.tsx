@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <main className="font-instrumentSans">
       <Hero />
-      <HomeSlider />
+      {/* <HomeSlider /> */}
       <Services />
       <Process />
       <Growth />

@@ -8,6 +8,10 @@ export default function HeroImages() {
         <div></div>
       </div>
 
+      <div className="absolute left-0 bottom-0 w-full h-[30%] bg-bgViolet z-50">
+        <div></div>
+      </div>
+
       <div className="relative mx-auto ss:w-[90%] w-full sm:bottom-0 -bottom-[50px]">
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
