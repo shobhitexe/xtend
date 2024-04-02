@@ -13,7 +13,6 @@ export default function Footer() {
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{
             delay: 0.2,
-            duration: 0.5,
           }}
           viewport={{ once: true, amount: 0.5 }}
           className="nav-button-bg-gradient-silver-text"
@@ -25,7 +24,6 @@ export default function Footer() {
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{
             delay: 0.4,
-            duration: 0.5,
           }}
           viewport={{ once: true, amount: 0.5 }}
         >
@@ -43,7 +41,6 @@ export default function Footer() {
         whileInView={{ translateY: 0, opacity: 1 }}
         transition={{
           delay: 0.6,
-          duration: 0.5,
         }}
         viewport={{ once: true, amount: 0.5 }}
         className="flex items-center gap-2"

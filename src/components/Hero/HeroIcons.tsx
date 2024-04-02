@@ -9,7 +9,6 @@ export default function HeroIcons() {
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{
           delay: 0.1,
-          duration: 0.5,
         }}
         viewport={{ once: true, amount: 0.5 }}
       >
@@ -27,7 +26,6 @@ export default function HeroIcons() {
         whileInView={{ opacity: 1 }}
         transition={{
           delay: 0.1,
-          duration: 0.5,
         }}
         viewport={{ once: true, amount: 0.5 }}
       >
@@ -45,7 +43,6 @@ export default function HeroIcons() {
         whileInView={{ opacity: 1 }}
         transition={{
           delay: 0.1,
-          duration: 0.5,
         }}
         viewport={{ once: true, amount: 0.5 }}
       >
@@ -63,7 +60,6 @@ export default function HeroIcons() {
         whileInView={{ opacity: 1 }}
         transition={{
           delay: 0.1,
-          duration: 0.5,
         }}
         viewport={{ once: true, amount: 0.5 }}
       >

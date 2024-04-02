@@ -13,7 +13,6 @@ export default function WebTechnologies() {
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{
             delay: 0.2,
-            duration: 0.5,
           }}
           viewport={{ once: true, amount: 0.5 }}
           className="text-center text-white font-semibold sm:text-[40px] text-[30px] sm:leading-[50px] leading-[40px]"
@@ -29,7 +28,6 @@ export default function WebTechnologies() {
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{
             delay: 0.4,
-            duration: 0.5,
           }}
           viewport={{ once: true, amount: 0.5 }}
           className="text-grey w-[80%] text-center ss:text-[14px] text-[13px]"
@@ -48,7 +46,6 @@ export default function WebTechnologies() {
             whileInView={{ opacity: 1 }}
             transition={{
               delay: 0.1 * idx,
-              duration: 0.5,
             }}
             viewport={{ once: true, amount: 0.5 }}
             key={tech.alt}

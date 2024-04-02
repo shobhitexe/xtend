@@ -23,7 +23,6 @@ export default function Services() {
                 whileInView={{ translateY: 0, opacity: 1 }}
                 transition={{
                   delay: 0.2,
-                  duration: 0.5,
                 }}
                 viewport={{ once: true, amount: 0.5 }}
                 className="nav-button-bg-gradient-silver-text xs:text-center text-left md:text-[50px] sm:text-[40px] ss:text-[35px] xs:text-[30px] text-[25px] font-semibold md:leading-[60px] sm:leading-[50px] xs:leading-[40px] leading-[30px]"
@@ -36,7 +35,6 @@ export default function Services() {
                 whileInView={{ translateY: 0, opacity: 1 }}
                 transition={{
                   delay: 0.2,
-                  duration: 0.5,
                 }}
                 viewport={{ once: true, amount: 0.5 }}
                 className="text-grey md:text-[15px] text-[14px]"
@@ -78,7 +76,6 @@ export default function Services() {
                     whileInView={{ translateY: 0, opacity: 1 }}
                     transition={{
                       delay: 0.2,
-                      duration: 0.5,
                     }}
                     viewport={{ once: true, amount: 0.5 }}
                     className="nav-button-bg-gradient-silver-text md:text-[40px] text-[30px] ss:leading-[50px] leading-[35px] font-semibold"
@@ -90,7 +87,6 @@ export default function Services() {
                     whileInView={{ translateY: 0, opacity: 1 }}
                     transition={{
                       delay: 0.2,
-                      duration: 0.5,
                     }}
                     viewport={{ once: true, amount: 0.5 }}
                     className="text-grey md:text-[15px] text-[14px]"
@@ -111,7 +107,6 @@ export default function Services() {
                           whileInView={{ scale: 1, opacity: 1 }}
                           transition={{
                             delay: 0.2 * idx,
-                            duration: 0.5,
                           }}
                           viewport={{ once: true, amount: 0.5 }}
                         >
@@ -143,7 +138,6 @@ export default function Services() {
                   whileInView={{ scale: 1, opacity: 1 }}
                   transition={{
                     delay: 0.2,
-                    duration: 0.5,
                   }}
                   viewport={{ once: true, amount: 0.5 }}
                   className="w-full"
