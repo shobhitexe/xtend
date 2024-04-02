@@ -18,6 +18,7 @@ export default function HeroImages() {
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{
             delay: 0.1,
+            duration: 0.5,
           }}
           viewport={{ once: true, amount: 0.5 }}
         >
@@ -34,6 +35,7 @@ export default function HeroImages() {
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{
             delay: 0.1,
+            duration: 0.5,
           }}
           viewport={{ once: true, amount: 0.5 }}
         >
@@ -51,6 +53,7 @@ export default function HeroImages() {
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{
             delay: 0.1,
+            duration: 0.5,
           }}
           viewport={{ once: true, amount: 0.5 }}
         >

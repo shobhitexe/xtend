@@ -41,6 +41,7 @@ export default function Hero() {
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{
             delay: 0.2,
+            duration: 0.5,
           }}
           viewport={{ once: true, amount: 0.5 }}
           className="text-center text-grey sm:w-[45%] w-[60%] md:text-[16px] sm:text-[15px] ss:text-[14px] xs:text-[13px] text-[12px]"
@@ -60,6 +61,7 @@ export default function Hero() {
             whileInView={{ translateY: 0, opacity: 1 }}
             transition={{
               delay: 0.2,
+              duration: 0.5,
             }}
             viewport={{ once: true, amount: 0.5 }}
             className="nav-button-bg-gradient-blue text-white md:text-[16px] sm:text-[15px] ss:text-[14px] xs:text-[13px] text-[11px] px-14 cursor-pointer border py-3 rounded-xl mt-5"
@@ -73,6 +75,7 @@ export default function Hero() {
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{
             delay: 0.2,
+            duration: 0.5,
           }}
           viewport={{ once: true, amount: 0.5 }}
           className="text-grey text-[13px]"

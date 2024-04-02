@@ -15,6 +15,7 @@ export default function RunningTheShow() {
               whileInView={{ translateY: 0, opacity: 1 }}
               transition={{
                 delay: 0.2,
+                duration: 0.5,
               }}
               viewport={{ once: true, amount: 0.5 }}
               className="nav-button-bg-gradient-silver-text md:text-[45px] sm:text-[40px] xs:text-[30px] text-[25px] font-bold"
@@ -26,6 +27,7 @@ export default function RunningTheShow() {
               whileInView={{ translateY: 0, opacity: 1 }}
               transition={{
                 delay: 0.4,
+                duration: 0.5,
               }}
               viewport={{ once: true, amount: 0.5 }}
               className="text-white/60 ss:w-[70%] w-full mx-auto md:text-[15px] sm:text-[14px] xs:text-[13px] text-[12px]"
@@ -40,6 +42,7 @@ export default function RunningTheShow() {
               whileInView={{ translateY: 0, opacity: 1 }}
               transition={{
                 delay: 0.6,
+                duration: 0.5,
               }}
               viewport={{ once: true, amount: 0.5 }}
               className="text-white/80 md:text-[16px] sm:text-[15px] xs:text-[14px] text-[13px] mt-3"
@@ -54,6 +57,7 @@ export default function RunningTheShow() {
                 whileInView={{ opacity: 1 }}
                 transition={{
                   delay: 0.2 * idx,
+                  duration: 0.5,
                 }}
                 viewport={{ once: true, amount: 0.5 }}
                 key={show.title}

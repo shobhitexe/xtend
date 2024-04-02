@@ -19,6 +19,7 @@ export default function TeamBehind() {
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{
             delay: 0.4,
+            duration: 0.5,
           }}
           viewport={{ once: true, amount: 0.5 }}
           className="nav-button-bg-gradient-silver-text ss:text-[40px] text-[30px] text-center font-semibold"
@@ -40,6 +41,7 @@ export default function TeamBehind() {
               whileInView={{ translateY: 0, opacity: 1 }}
               transition={{
                 delay: 0.4,
+                duration: 0.5,
               }}
               viewport={{ once: true, amount: 0.5 }}
             >
@@ -76,6 +78,7 @@ export default function TeamBehind() {
                 whileInView={{ translateY: 0, opacity: 1 }}
                 transition={{
                   delay: 0.2,
+                  duration: 0.5,
                 }}
                 viewport={{ once: true, amount: 0.5 }}
                 className="nav-button-bg-gradient-silver-text md:text-[50px] text-[40px] font-bold"
@@ -87,6 +90,7 @@ export default function TeamBehind() {
                 whileInView={{ translateY: 0, opacity: 1 }}
                 transition={{
                   delay: 0.4,
+                  duration: 0.5,
                 }}
                 viewport={{ once: true, amount: 0.5 }}
                 className="nav-button-bg-gradient-silver-text md:text-[20px] text-[18px]"
@@ -98,6 +102,7 @@ export default function TeamBehind() {
                 whileInView={{ translateY: 0, opacity: 1 }}
                 transition={{
                   delay: 0.4,
+                  duration: 0.5,
                 }}
                 viewport={{ once: true, amount: 0.5 }}
                 className="text-grey w-[250px] md:text-[12px] text-[11px] mx-auto"

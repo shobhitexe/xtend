@@ -14,6 +14,7 @@ export default function Growth() {
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{
             delay: 0.2,
+            duration: 0.5,
           }}
           viewport={{ once: true, amount: 0.5 }}
           className="text-white sm:text-[40px] text-[30px] font-semibold sm:w-[60%]"
@@ -30,6 +31,7 @@ export default function Growth() {
             whileInView={{ translateY: 0, opacity: 1 }}
             transition={{
               delay: 0.2,
+              duration: 0.5,
             }}
             viewport={{ once: true, amount: 0.5 }}
             className="text-grey"
@@ -50,6 +52,7 @@ export default function Growth() {
               whileInView={{ opacity: 1 }}
               transition={{
                 delay: 0.2,
+                duration: 0.5,
               }}
               viewport={{ once: true, amount: 0.5 }}
               className="text-white px-7 py-3 rounded-3xl flex items-center gap-1 w-fit border border-grey/50 cursor-pointer drop-shadow-sm"

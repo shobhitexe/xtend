@@ -28,6 +28,7 @@ export default function Process() {
             whileInView={{ translateY: 0, opacity: 1 }}
             transition={{
               delay: 0.2,
+              duration: 0.5,
             }}
             viewport={{ once: true, amount: 0.5 }}
             className="text-center nav-button-bg-gradient-silver-text ss:text-[50px] xs:text-[40px] text-[30px] font-semibold"
@@ -40,6 +41,7 @@ export default function Process() {
             whileInView={{ translateY: 0, opacity: 1 }}
             transition={{
               delay: 0.4,
+              duration: 0.5,
             }}
             viewport={{ once: true, amount: 0.5 }}
             className="text-grey text-center sm:w-[60%] w-[90%] ss:text-[14px] xs:text-[13px] text-[12px] mx-auto"
@@ -77,6 +79,7 @@ export default function Process() {
                   whileInView={{ translateY: 0, opacity: 1 }}
                   transition={{
                     delay: 0.2,
+                    duration: 0.5,
                   }}
                   viewport={{ once: true, amount: 0.5 }}
                 >
@@ -90,6 +93,7 @@ export default function Process() {
                   whileInView={{ opacity: 1 }}
                   transition={{
                     delay: 0.2,
+                    duration: 0.5,
                   }}
                   viewport={{ once: true, amount: 0.5 }}
                 >
